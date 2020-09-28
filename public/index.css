@@ -15,14 +15,12 @@
   font-family:  'Kufam', cursive;
   text-align: center;
   margin-top: 3%;
-  font-size:48px;
   margin-bottom: 3%;
   background-color: rgb(202, 214, 226);
-  /* border-radius: 5px; */
-  /* border: 5px solid rgb(176, 159, 248); */
   letter-spacing: 10pt;
   text-shadow: 1px 1px 5px #807ef8;align-self: z;
-  width: 750px;  
+  width: 100%;  
+  
 }
 body{
   background-image: linear-gradient(to left, #CCC2FF ,#87CEEB);
@@ -30,6 +28,7 @@ body{
   margin-left: 2%;
   margin-bottom: 5%;
   margin-top: 1%;
+  width: 100%;
 }
 
 .topnav {
@@ -56,69 +55,33 @@ body{
   background-color: #4CAF50;
   color: white;
 }
-/* header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: auto;
-   height: 50px;
-
-  }
-  
-  header li {
-    float: left;
-    margin-right: 7%;
-    padding-top: 0.5%;
-    margin-left: 7%;
-  }
-  
-  header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size:23px;
-    font-family:  'Kufam', cursive;
-  }
-
-  
-  header li a:hover {
-    background-color: #111;
-    color: black;
-  }
-  header li a.active {
-    background-color: #4CAF50;
-    color: white;
-  } */
-
 /* Home */
 .proimg img{
-  margin-left: 40%;
+ 
   /* margin-right: 5%; */
   /* margin-top: 1%; */
-  width: 350px; /* ความกว้าง */
-  height: 350px; /* ความสูง */
+  width: auto; /* ความกว้าง */
+  height: 200px; /* ความสูง */
  /* -moz-border-radius: 170px; 
  -webkit-border-radius: 170px;
   border-radius: 170px; */
   /* padding: var(--spacing);
   filter: blur(var(--bulr));
   background-color: var(--base); */
-  border: 5px solid white  
+  border: 5px solid white;
+
 }
 /* Home */
 
 /* About */
 .PersInf{
   background-color: rgb(202, 214, 226);
-  width: 800px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   border: 5px solid white;
   /* border-radius:5%; */
   margin-top: 5%;
-  margin-left: 28%;
+ 
 
 }
 .hist{
@@ -200,9 +163,9 @@ label{
 .backAb{
   border: 5px solid rgb(176, 159, 248);
   background-color: rgb(202, 214, 226);
-  width: 1300px;
+  width: 100%;
   margin: auto;
-  height: 1000px; 
+  height: 100%; 
   margin-top: 2%;
   padding-left: 3%;
 }
