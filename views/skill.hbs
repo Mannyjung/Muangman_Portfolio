@@ -6,29 +6,31 @@
 <div class="backAb">
 <p class="skillhead"><u>The ability to work on software.</u></p>
   <div class="textskill">
+    {{#with myData.skill}}
     <p><b>HTML : </b></p>
     <div class="container">
-      <div class="skills html">80%</div>
+      <div class="skills html">{{Html}}</div>
     </div>
 
     <p><b>CSS : </b></p>
     <div class="container">
-      <div class="skills css">60%</div>
+      <div class="skills css">{{Css}}</div>
     </div>
 
     <p><b>JavaScript : </b></p>
     <div class="container">
-      <div class="skills js">45%</div>
+      <div class="skills js">{{Js}}</div>
     </div>
 
     <p><b>PHP : </b></p>
     <div class="container">
-      <div class="skills php">65%</div>
+      <div class="skills php">{{Php}}</div>
     </div>
 
     <p><b>JAVA : </b></p>
     <div class="container">
-      <div class="skills java">30 %</div>
+      <div class="skills java">{{Java}}</div>
     </div>
+    {{/with}}
   </div>
   </div>

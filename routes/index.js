@@ -19,7 +19,7 @@ router.get('/workexperience',(req,res)=>{
 });
 
 router.get('/skill',(req,res)=>{
-    res.render('skill');
+    res.render('skill',{myData});
 });
 
 module.exports = router;

@@ -14,6 +14,14 @@ const data = {
     "education" :{
         "Upper" : "MattayomthanbinKamphaengSaen English-Chinese Program",
         "Lower" : "MattayomthanbinKamphaengSaen"
+    },
+    "skill":{
+        "Html" : "80%",
+        "Css" : "60%", 
+        "Js" : "45%",
+        "Php" : "65%",
+        "Java" : "30%"
+        
     }
 
     

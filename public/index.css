@@ -81,6 +81,7 @@ body{
   border: 5px solid white;
   /* border-radius:5%; */
   margin-top: 5%;
+  
 
 }
 .hist{
@@ -89,6 +90,8 @@ body{
   margin-left:8%;
   margin-bottom: 5%;
   margin-top: 5%;
+  margin-right:8%;
+
   
 }
 label{
@@ -162,10 +165,11 @@ label{
 .backAb{
   border: 5px solid rgb(176, 159, 248);
   background-color: rgb(202, 214, 226);
-  width: 100%;
+  width: 80%;
   margin: auto;
   height: 100%; 
   margin-top: 2%;
+  margin-bottom: 2%;
   padding-left: 3%;
 }
 /* skill */
