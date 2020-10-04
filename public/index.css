@@ -76,12 +76,11 @@ body{
 /* About */
 .PersInf{
   background-color: rgb(202, 214, 226);
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   border: 5px solid white;
   /* border-radius:5%; */
   margin-top: 5%;
- 
 
 }
 .hist{
